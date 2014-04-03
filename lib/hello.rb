@@ -3,5 +3,5 @@ require 'greeter'
 # Default is "World"
 name = ARGV.first || "World"
 
-gretter = Greeter.new(name)
+greeter = Greeter.new(name)
 puts greeter.greet
